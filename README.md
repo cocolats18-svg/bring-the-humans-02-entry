@@ -107,7 +107,7 @@ Before you enter, run the site's own checks on your machine. A rejected entry st
 node cli/makefun.mjs check --kit . --repo ../my-entry --transcripts transcripts.tar.gz
 ```
 
-Fix whatever it reports, then check again.
+Fix whatever it reports, then check again. A rejected entry still counts toward the day's limit, so do not submit a first draft just to see what happens — run `check` first, every time.
 
 ## 6. Submit it
 
